@@ -103,3 +103,8 @@
 /Users/bastian/Git/TodoApp/TodoApp.Tests/obj/Debug/net8.0/TodoApp.Tests.pdb
 /Users/bastian/Git/TodoApp/TodoApp.Tests/obj/Debug/net8.0/TodoApp.Tests.genruntimeconfig.cache
 /Users/bastian/Git/TodoApp/TodoApp.Tests/obj/Debug/net8.0/ref/TodoApp.Tests.dll
+/Users/bastian/Git/TodoApp/TodoApp.Tests/bin/Debug/net8.0/Castle.Core.dll
+/Users/bastian/Git/TodoApp/TodoApp.Tests/bin/Debug/net8.0/Moq.dll
+/Users/bastian/Git/TodoApp/TodoApp.Tests/bin/Debug/net8.0/System.Diagnostics.EventLog.dll
+/Users/bastian/Git/TodoApp/TodoApp.Tests/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
+/Users/bastian/Git/TodoApp/TodoApp.Tests/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll

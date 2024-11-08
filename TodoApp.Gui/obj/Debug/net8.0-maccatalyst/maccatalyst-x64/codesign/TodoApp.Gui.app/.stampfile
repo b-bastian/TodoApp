@@ -1,1 +1,0 @@
--v --force --timestamp=none --sign - --entitlements /Users/bastian/Git/TodoApp/TodoApp.Gui/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Entitlements.xcent /Users/bastian/Git/TodoApp/TodoApp.Gui/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/TodoApp.Gui.app

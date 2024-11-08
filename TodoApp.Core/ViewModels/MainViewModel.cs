@@ -32,6 +32,13 @@ public partial class MainViewModel : ObservableObject
 
         this.TodoTitle = string.Empty;
     }
+    
+    [RelayCommand]
+    void AddTodoItem(Todo todo)
+    {
+        this._repository.Add(todo);
+        Todos.Add(todo);
+    }
 
     [RelayCommand]
     void LoadData()

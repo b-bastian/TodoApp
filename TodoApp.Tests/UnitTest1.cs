@@ -2,6 +2,7 @@ using TodoApp.Core;
 using TodoApp.Core.Models;
 using TodoApp.Core.ViewModels;
 using TodoApp.TodoData;
+using Moq;
 
 namespace TodoApp.Tests;
 
@@ -64,28 +65,21 @@ public class Tests
             Assert.That(viewModel.TodoTitle, Is.EqualTo(string.Empty));
         });
     }
+
     [Test]
-    public void TestSaveCommandRepo()
+    public void TestMock()
     {
-        // arrange
-        IRepository rep = new StaticData();
-        MainViewModel viewModel = new MainViewModel(rep);
-        
-        // act
-        string input = "**TEST**";
-        viewModel.TodoTitle = input;
-        viewModel.AddTodoCommand.Execute(null);
-
-        // assert
-        Todo? item = (from t in viewModel.Todos
-            where t.Title == input
-            select t).FirstOrDefault();
-
-        Assert.Multiple(() =>
+        var mock = new Mock<IRepository>();
+        mock.Setup(x => x.GetAll()).Returns(new List<Todo>()
         {
-            Assert.That(item, Is.Not.Null);
-            Assert.That(item.Title, Is.EqualTo(input));
-            Assert.That(viewModel.TodoTitle, Is.EqualTo(string.Empty));
+            new Todo("Test")
         });
+        
+        MainViewModel viewModel = new MainViewModel(mock.Object);
+        
+        viewModel.LoadDataCommand.Execute(null);
+        viewModel.AddTodoItemCommand.Execute(new Todo("Probe"));
+        
+        Assert.That(viewModel.Todos.Count, Is.Not.EqualTo(1));
     }
 }
