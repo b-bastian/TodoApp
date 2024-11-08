@@ -13,3 +13,4 @@
 /Users/bastian/Git/TodoApp/TodoApp.TodoData/obj/Debug/net8.0/refint/TodoApp.TodoData.dll
 /Users/bastian/Git/TodoApp/TodoApp.TodoData/obj/Debug/net8.0/TodoApp.TodoData.pdb
 /Users/bastian/Git/TodoApp/TodoApp.TodoData/obj/Debug/net8.0/ref/TodoApp.TodoData.dll
+/Users/bastian/Git/TodoApp/TodoApp.TodoData/obj/Debug/net8.0/TodoApp.TodoData.sourcelink.json

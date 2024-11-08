@@ -17,5 +17,10 @@ public class Todo
 		this.Id = id;
 		this.Title = title;
 	}
+
+	public override string ToString()
+	{
+		return this.Title;
+	}
 }
 
