@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{F906856A-7C88-417E-AB69-5893C0B4B3F8}|Default">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TodoApp.Core/ViewModels/MainViewModel.cs">
+    <Files>
+      <File FileName="TodoApp.Gui/MainPage.xaml" />
+      <File FileName="TodoApp.Core/ViewModels/MainViewModel.cs" Line="21" Column="46" />
+      <File FileName="../../.nuget/packages/communitytoolkit.maui/8.0.1/readme.txt" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TodoApp" expanded="True">
+            <Node name="TodoApp.Core" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="MainViewModel.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="TodoApp.Gui" expanded="True" />
+            <Node name="TodoApp.TodoData" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.TodoApp.Gui PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

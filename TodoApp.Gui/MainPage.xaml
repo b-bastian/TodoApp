@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:TodoApp.Core.ViewModels;assembly=TodoApp.Core"
+             x:DataType="viewmodels:MainViewModel"
+             xmlns:models="clr-namespace:TodoApp.Core.Models;assembly=TodoApp.Core"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="TodoApp.Gui.MainPage">
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Appearing" Command="{Binding LoadDataCommand}" />
+    </ContentPage.Behaviors>
+
+    <Grid RowDefinitions="auto,auto,auto,auto,*" ColumnDefinitions="*,auto"
+          ColumnSpacing="10" Margin="20">
+
+        <!-- title -->
+        <Label Text="{Binding Title}" Grid.ColumnSpan="2"
+               TextColor="{AppThemeBinding Light={StaticResource Primary},
+            Dark={StaticResource PrimaryDark}}" FontSize="Header" />
+
+        <!-- add title -->
+        <Label Text="Add todo" FontSize="Large" Grid.Row="1" Grid.ColumnSpan="2" />
+        <Entry Text="{Binding TodoTitle}" ReturnCommand="{Binding AddTodoCommand}" FontSize="Large" Grid.Row="2" />
+        <Button Text="OK" Command="{Binding AddTodoCommand}" FontSize="Large" Grid.Row="2" Grid.Column="1" />
+
+        <!-- todo list -->
+        <Label Text="Todos" FontSize="Large" Grid.Row="3" Grid.ColumnSpan="2" />
+        <CollectionView ItemsSource="{Binding Todos}" Grid.Row="4" Grid.ColumnSpan="2">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:Todo">
+                    <Label Text="{Binding Title}" />
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+
+</ContentPage>
+

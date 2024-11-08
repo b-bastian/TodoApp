@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IO6B58pTSfk=",
+  "success": true,
+  "projectFilePath": "/Users/bastian/Git/TodoApp/TodoApp.TodoData/TodoApp.TodoData.csproj",
+  "expectedPackageFiles": [
+    "/Users/bastian/.nuget/packages/communitytoolkit.mvvm/8.4.0-preview1/communitytoolkit.mvvm.8.4.0-preview1.nupkg.sha512"
+  ],
+  "logs": []
+}

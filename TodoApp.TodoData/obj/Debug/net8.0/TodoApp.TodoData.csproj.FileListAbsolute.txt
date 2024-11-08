@@ -1,0 +1,15 @@
+/Users/bastian/Git/TodoApp/TodoApp.TodoData/bin/Debug/net8.0/TodoApp.TodoData.deps.json
+/Users/bastian/Git/TodoApp/TodoApp.TodoData/bin/Debug/net8.0/TodoApp.TodoData.dll
+/Users/bastian/Git/TodoApp/TodoApp.TodoData/bin/Debug/net8.0/TodoApp.TodoData.pdb
+/Users/bastian/Git/TodoApp/TodoApp.TodoData/bin/Debug/net8.0/TodoApp.Core.dll
+/Users/bastian/Git/TodoApp/TodoApp.TodoData/bin/Debug/net8.0/TodoApp.Core.pdb
+/Users/bastian/Git/TodoApp/TodoApp.TodoData/obj/Debug/net8.0/TodoApp.TodoData.csproj.AssemblyReference.cache
+/Users/bastian/Git/TodoApp/TodoApp.TodoData/obj/Debug/net8.0/TodoApp.TodoData.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bastian/Git/TodoApp/TodoApp.TodoData/obj/Debug/net8.0/TodoApp.TodoData.AssemblyInfoInputs.cache
+/Users/bastian/Git/TodoApp/TodoApp.TodoData/obj/Debug/net8.0/TodoApp.TodoData.AssemblyInfo.cs
+/Users/bastian/Git/TodoApp/TodoApp.TodoData/obj/Debug/net8.0/TodoApp.TodoData.csproj.CoreCompileInputs.cache
+/Users/bastian/Git/TodoApp/TodoApp.TodoData/obj/Debug/net8.0/TodoApp..DCC4CC4C.Up2Date
+/Users/bastian/Git/TodoApp/TodoApp.TodoData/obj/Debug/net8.0/TodoApp.TodoData.dll
+/Users/bastian/Git/TodoApp/TodoApp.TodoData/obj/Debug/net8.0/refint/TodoApp.TodoData.dll
+/Users/bastian/Git/TodoApp/TodoApp.TodoData/obj/Debug/net8.0/TodoApp.TodoData.pdb
+/Users/bastian/Git/TodoApp/TodoApp.TodoData/obj/Debug/net8.0/ref/TodoApp.TodoData.dll
